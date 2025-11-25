@@ -1,0 +1,65 @@
+body{
+    background: #c62828;
+    margin: 200px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.page-container {
+    max-width: 900;
+    margin: 20px auto;
+    background: white;
+    padding: 20px ;
+}
+
+ul,li{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    background-color: rgb(2, 2, 2);
+}
+
+li{
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bold;
+    margin: 6px;
+}
+
+h1{
+    text-align: center;
+    letter-spacing: 3px;
+    margin-top: 30px;
+}
+
+.para{
+    max-width: 700px;
+    margin: 0 auto 30px auto;
+    text-align: center;
+    line-height: 1.6;
+}
+
+.main{
+    width: 100%;
+    display: block;
+    margin: 10px
+}
+
+.three-picx{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    margin-bottom: 5px;
+}
+
+.three-picx img{
+    width: 200px;
+    display: block;
+    border-radius: 4px;
+}
+
+figcaption{
+    text-align: center;
+    margin-top: 8px;
+    font-size: 14px;
+}
